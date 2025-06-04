@@ -787,8 +787,8 @@ info is a plist holding export options."
    contents
    "</div>
 </div>\n"
-   (org-reveal--build-pre/postamble 'postamble info)
    (org-reveal-scripts info)
+   (org-reveal--build-pre/postamble 'postamble info)
    "</body>
 </html>\n"))
 
